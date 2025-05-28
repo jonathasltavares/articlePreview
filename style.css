@@ -216,4 +216,12 @@ article > section h1{
     z-index: 3;
     position: sticky;
   }
+
+  .shareButton:hover{
+    cursor: pointer;
+    background-color: var(--light-grayish-blue)
+}
+.shareButton:hover > img{
+    filter: none
+}
 }
